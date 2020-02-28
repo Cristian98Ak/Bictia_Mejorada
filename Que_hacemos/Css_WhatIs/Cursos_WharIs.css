@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.cursos{
+    float: left;
+}
+.contain-icon{
+    list-style: none;
+    margin: auto;
+}
+
+.contain-icon .img-icon{
+    margin: 10px 0;
+}
+.Curso-uno{
+    justify-content: center;
+    align-items: center;
+
+}
+.Content-WhatIs{
+    justify-content: center;
+    align-items: center;
+    margin: 10px 5px;
+}
+.Content-WhatIs .picture-WhatIs img{
+    align-items: center;
+    justify-content: center;
+    margin: 20px 150px;
+    width: 80%;
+    height: 300px;
+}
+.Content-WhatIs .Text-WhatIs{
+    align-items: center;
+    justify-content: center;
+    margin: 15px 150px;
+    width: 80%;
+}

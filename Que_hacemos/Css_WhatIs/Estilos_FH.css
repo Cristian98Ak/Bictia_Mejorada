@@ -1,0 +1,113 @@
+
+/*Inicio de navbar*/ 
+
+#menu{
+    padding: 1em;
+}
+.transparente{
+    transition: all 1s ease;
+}
+.hide{
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    width: 165px;
+}
+.imghome {
+    width: 30px;
+}
+.hide:hover{
+    opacity: 1;
+    transition: all 1s ease;
+}
+.logo{
+    position: relative;
+}
+
+.logo:hover .principal{
+     opacity: 0; 
+     transition: all 1s ease;
+}
+
+.navbar-brand a {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    
+}
+#menudesplegable li{
+    padding: 0 4em 0 4em;
+}
+#menudesplegable li .nav-link:hover{
+    border: 2px solid #222326;
+    border-radius: 15px;
+    padding: 0 2rem;
+}
+#uno {
+    height: 100vh;
+}
+#dos {
+    height: 100vh;
+}
+#tres{
+    height: 100vh;
+}
+
+
+
+/*footer*/
+
+.footer
+{
+
+    background-image: url(../Img_WhatIs/fondobgt.png);
+    height: 50vh;
+    background-size: 100% 100%;
+    background-color: #f27405;
+    padding-top: 5px;
+}
+
+.icons
+{
+    width: 100%;
+    padding-top: 2em;
+}
+.icons img
+{
+    padding: 10px;
+    border-radius: 5px;
+    width: 7.5vh;
+    margin: 0 10px;
+    
+}
+
+.icons img:hover{
+
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+    
+}
+.copy
+{
+    width: 100%;
+    padding-top: 2em;
+    
+}
+footer p
+{
+    text-align: center;
+    font-size: 85%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: -20px;
+}
+
+footer a:hover {
+    color: #222326;
+    text-decoration: none;
+}
+
+footer a {
+    color: #ffffff;
+}
