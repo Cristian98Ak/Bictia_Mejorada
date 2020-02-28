@@ -1,0 +1,45 @@
+.footer
+{
+    background-image: url(../Imagenes/Cuerpo/fondobgt.png);
+    height: 50vh;
+    background-size: 100% 100%;
+    background-color: #f27405;
+    align-items: center;
+    justify-content: center;
+    padding-top: 33px;
+}
+.icons
+{
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 5px;
+    margin-left: 550px;
+
+}
+.icons img
+{
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 5px 10px;
+}
+.icons img:hover
+{
+  -moz-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
+.copy
+{
+    width: 490px;
+    margin-left: 395px;
+}
+p
+{
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: -2px;
+}

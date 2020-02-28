@@ -1,0 +1,133 @@
+body
+{
+  margin: 0;
+  padding: 0;
+  background-image: url(../Imagenes/Cuerpo/fondo.png);
+  background-position: top;
+  background-size: cover;
+}
+/*Parthers*/
+h4
+{
+  color:#F27405;
+  text-align: center;
+  text-decoration: none;
+  font-size: 30px;
+  font-family: 'Cinzel', serif;
+}
+h4:hover
+{
+  color:#222326;
+  text-decoration: underline;
+  transition: all .05s;
+  font-style: oblique;
+  font-family: Calistoga;
+}
+/*Container parthers*/
+.bussines
+{
+    width: 1200px;
+    height: 350px;
+    margin-left: 40px;
+    text-align: center;
+}
+/*Container-table*/
+.container_parthers
+{
+  height: 270px;
+  padding: 5px;
+  margin:auto;
+  margin-top:-30px;
+}
+.image_parthers th
+{
+  padding: 5px;
+  padding-left: 15px;
+}
+.container_parthers img
+{
+  border-bottom:black solid 2px;
+  width: 210px;
+  height:210px;
+  float: left;
+  border-radius: 150px;
+}
+.container_parthers img:hover
+{
+ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ text-align: center;
+}
+/*names parthers*/
+.name_parthers th
+{
+  margin-top: 250px;
+}
+.name_parthers a
+{
+  text-decoration: none;
+  text-align: center;
+  color: #A6460F;
+  cursor: pointer;
+  font-size: 19px;
+  font-family:Caveat;
+  font-style: normal;
+}
+.name_parthers a:hover
+{
+  text-decoration: underline;
+  color: #F27405;
+  font-size: 19px;
+  font-family: Caveat;
+  font-style: italic;
+}
+/*Container what do we do*/
+.container
+{
+  height: 460px;
+  padding: 5px;
+  margin:auto;
+}
+.container1
+{
+  height: 300px;
+  padding: 15px;
+  width: 100%;
+}
+.image_do th
+{
+  align-items: center;
+}
+.image_do img
+{
+  width: 100px;
+  height:100px;
+  float: left;
+  margin-left: 35%;
+}
+/*Tittle*/
+.image_do a
+{
+  text-decoration: none;
+  color: #A6460F;
+  font-size: 23px;
+  font-family: 'Kaushan Script';
+
+}
+.image_do a:hover
+{
+  color: pink;
+  font-style: italic;
+  color:#222326;
+}
+/*Description*/
+.image_do p
+{
+  color:#F27405;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+  font-style: oblique;
+  margin-top: 20px;
+  height: 100px;
+
+}

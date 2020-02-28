@@ -1,0 +1,87 @@
+body
+{
+    margin: 0;
+    padding: 0;
+}
+.home
+{
+    background-image: url(../Imagenes/Cuerpo/Bogota.jpg);
+    background-repeat: no-repeat;
+    height: 55vh;
+    background-size: cover;
+    left: 0;
+    top: 0;
+}
+.icon
+{
+    width:150px;
+    height: 130px;
+    float: left;
+    margin-left: 300px;
+    margin-top: 30px;
+}
+.textincubator
+{
+  width: 460px;
+  float: left;
+  margin-left: -270px;
+  margin-top: 170px;
+  color:white;
+  font-size: 20px;
+  font-family: 'Cinzel';
+}
+.menu
+{
+    float: left;
+    align-items: center;
+    text-align: center;
+    margin-left: 600px;
+    margin-top: -160px;
+}
+.menu div
+{
+    margin: 0px;
+    padding: 5px;
+    width: 200px;
+    float: left;
+}
+.menu div a
+{
+    text-decoration: none;
+    color:white;
+    font-size: 20px;
+    font-family: 'Cinzel';
+}
+.menu div a:hover
+{
+    font-family: 'Sriracha';
+    font-style: italic;
+    color: #D7D7D9;
+    border-style: outset;
+    border-bottom: 4px solid;
+    border-right: 4px solid;
+    border-top: none;
+    border-left: none;
+    border-radius:15px;
+}
+.menu .whatdowedo
+{
+    margin-left: 380px;
+}
+.menu .we
+{
+    margin-left: 300px;
+}
+.menu .events
+{
+    margin-left: 230px;
+}
+.menu .students
+{
+    margin-left: 170px;
+}
+.menu .contactus
+{
+    margin-top: 10px;
+    margin-right: 190px;
+}
