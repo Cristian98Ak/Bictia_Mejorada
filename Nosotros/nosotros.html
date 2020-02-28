@@ -20,8 +20,37 @@
 </head>
 
 <body>
-  <header class="header">
-    HOLA SOY EL HEADER
+  <header id="header">
+    <nav id="menu" class="navbar navbar-expand-lg navbar-light fixed-top transparente ">
+      <div class="navbar-brand">
+
+        <div class="logo">
+          <img class="principal" src="../Imagenes/Cuerpo/logo_bictia.png" />
+          <a class="hide" href="../Index.html"><img class="imghome" src="../Imagenes/Cuerpo/house.png"> Inicio </a>
+        </div>
+      </div>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menudesplegable"
+        aria-controls="menudesplegable" aria-expanded="true" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="menudesplegable">
+        <ul class="navbar-nav d-flex-row ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="../Index.html">Inicio </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../Que_hacemos/Que_hacemos.html">¿Que Hacemos?</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="../Eventos/eventos.html">Eventos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="nosotros.html">Nosotros</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
   </header>
   <h2 class="title">Nosotros</h2>
   <section class="container-fluid d-flex justify-content-center align-items-center flex-wrap pt-4">
@@ -933,7 +962,16 @@
     </div>
   </section>
   <footer class="footer">
-    FOOTER
+    <div class="icons d-flex justify-content-center">
+      <a href="#" target="_blank"><img src="../Imagenes/Iconos/facebook.png" alt="iconfacebook"></a>
+      <a href="#" target="_blank"><img src="../Imagenes/Iconos/instagram.png" alt="iconoinstagram"></a>
+      <a href="#" target="_blank"><img src="../Imagenes/Iconos/twitter.png" alt="iconotwitter"></a>
+    </div>
+    <div class="copy">
+      <p> © COPYRIGHT 2020 Bogotá Institute of Tecnology<p>
+          <small> <a href="#" class="font-weight-bold">TODOS LOS DERECHOS RESERVADOS.
+              BOGOTA-BICTIA-COLOMBIA.</a></small>
+    </div>
   </footer>
   <!-- Js -->
   <script src="Js_Our/Card_Our.js"></script>
