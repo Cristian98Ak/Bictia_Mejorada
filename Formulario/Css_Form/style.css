@@ -1,0 +1,52 @@
+/* RELLENO */
+
+.header,
+.footer {
+  background-color: forestgreen;
+  min-height: 100px;
+}
+
+/* ELIMINAR ESTILOS POR DEFECTO DEL BROWSER */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+
+body {
+  background-image: url(./img/l.png);
+}
+
+/* SECCIONES DEL FORMULARIO */
+.form {
+  margin: 0 auto;
+  text-align: center;
+  margin: 0 auto;
+  width: 50%;
+}
+label {
+  border-radius: 15px;
+  background-color: steelblue;
+  display: block;
+  margin: 10px 0;
+  padding: 10px 20px;
+}
+
+.form-item {
+  margin: 10px 0;
+}
+
+input, textarea {
+  display: block;
+}
